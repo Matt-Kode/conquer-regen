@@ -1,0 +1,15 @@
+name: ConquerRegen
+version: '${project.version}'
+main: me.matt.conquerregen.ConquerRegen
+api-version: '1.19'
+
+softdepend: [Towny]
+
+commands:
+  conquerregen:
+    permission: conquerregen.admin
+
+
+permissions:
+  conquerregen.admin:
+    default: op
